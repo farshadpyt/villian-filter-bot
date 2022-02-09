@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('updates', url='https://t.me/josprojects')
+                InlineKeyboardButton('ɠɾσυρ', url='https://t.me/cinemakodathi')
             ],
             [
                 InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -43,17 +43,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Aԃԃ ɱҽ ƚσ ყσυɾ Cԋαƚ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('〽️ ɧɛƖ℘ 〽️', callback_data='help'),
+            InlineKeyboardButton('🥰 ค๖໐นt 🥰', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ʂҽαɾƈԋ ԋҽɾҽ ɱσʋιҽ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('ว໐iຖ ງr໐นp', url='https://t.me/cinemakodathi'),
+            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/moviesupdateck')
             ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton('✗ ¢ℓσѕє тнє мєηυ ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,17 +91,17 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Aԃԃ ɱҽ ƚσ ყσυɾ Cԋαƚ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('〽️ ɧɛƖ℘ 〽️', callback_data='help'),
+            InlineKeyboardButton('🥰 ค๖໐นt 🥰', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ʂҽαɾƈԋ ԋҽɾҽ ɱσʋιҽ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('ว໐iຖ ງr໐นp', url='https://t.me/cinemakodathi'),
+            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/moviesupdateck')
             ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton('✗ ¢ℓσѕє тнє мєηυ ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -146,11 +146,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('ɠɾσυρ', url='https://t.me/cinemakodathi'),
+                    InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/moviesupdateck')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/cinemakodathi')
                 ]
                 ]
             try:
@@ -260,11 +260,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+            InlineKeyboardButton('ɠɾσυρ', url='https://t.me/cinemakodathi'),
+             InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/moviesupdateck')
         ],
         [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/cinemakodathi')
         ]
         ]
     await client.send_cached_media(
