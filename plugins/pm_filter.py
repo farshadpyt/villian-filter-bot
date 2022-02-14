@@ -898,14 +898,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="ŋɛҳɬ ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/moviesupdateck")]
+            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/newmovies102678")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/moviesupdateck")]
+            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/newmovies102678")]
         )
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
