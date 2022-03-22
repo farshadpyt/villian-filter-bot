@@ -362,7 +362,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton('ɠɾσυρ', url='https://t.me/Newmoviesgroup002'),
-                InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102677')
+                InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102622')
             ],
             [
                 InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/Newmoviesgroup002')
@@ -416,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton('ɠɾσυρ', url='https://t.me/Newmoviesgroup002'),
-                InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102677')
+                InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102622')
             ],
             [
                 InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/Newmoviesgroup002')
@@ -442,7 +442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʂҽαɾƈԋ ԋҽɾҽ ɱσʋιҽ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('ว໐iຖ ງr໐นp', url='https://t.me/Newmoviesgroup002'),
-            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/Newmovies102677')
+            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/Newmovies102622')
             ],[
             InlineKeyboardButton('✗ ¢ℓσѕє тнє мєηυ ✗', callback_data='close_data')
         ]]
@@ -1222,14 +1222,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="ŋɛҳɬ ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/Newmovies102677")]
+            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/Newmovies102622")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/Newmovies102677")]
+            [InlineKeyboardButton(text="⭕️ Jσιɳ Oυɾ Cԋαɳɳҽʅ ⭕️",url="https://t.me/Newmovies102622")]
         )
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
