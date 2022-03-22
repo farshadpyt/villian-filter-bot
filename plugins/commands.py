@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton('ʂҽαɾƈԋ ԋҽɾҽ ɱσʋιҽ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('ว໐iຖ ງr໐นp', url='https://t.me/Newmoviesgroup002'),
-            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/Newmovies102677')
+            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/Newmovies102622')
             ],[
             InlineKeyboardButton('✗ ¢ℓσѕє тнє мєηυ ✗', callback_data='close_data')
         ]]
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('ʂҽαɾƈԋ ԋҽɾҽ ɱσʋιҽ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('ว໐iຖ ງr໐นp', url='https://t.me/Newmoviesgroup002'),
-            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/Newmovies102677')
+            InlineKeyboardButton('ʝơıŋ ƈɧąŋŋɛƖ', url='https://t.me/Newmovies102622')
             ],[
             InlineKeyboardButton('✗ ¢ℓσѕє тнє мєηυ ✗', callback_data='close_data')
         ]]
@@ -147,7 +147,7 @@ async def start(client, message):
             buttons = [
                 [
                     InlineKeyboardButton('ɠɾσυρ', url='https://t.me/Newmoviesgroup002'),
-                    InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102677')
+                    InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102622')
                 ],
                 [
                     InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/Newmoviesgroup002')
@@ -261,7 +261,7 @@ async def start(client, message):
     buttons = [
         [
             InlineKeyboardButton('ɠɾσυρ', url='https://t.me/Newmoviesgroup002'),
-             InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102677')
+             InlineKeyboardButton('ƈԋαɳɳҽʅ', url='https://t.me/Newmovies102622')
         ],
         [
             InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/Newmoviesgroup002')
